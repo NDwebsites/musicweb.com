@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+nav #nav {
+    width: 97%;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 8.5px;
+    text-align: center;
+    position: fixed;
+}
+
+nav #nav ul li {
+    list-style: none;
+    margin: 15px;
+    display: inline-block;
+}
+
+nav #nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 20px;
+}
+
+nav #nav ul li a:hover {
+    border-bottom: 5px solid #fff;
+}
